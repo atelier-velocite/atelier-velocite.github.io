@@ -1,0 +1,96 @@
+/* test file following w3schools.com's web tutorial */
+
+
+body {
+}
+
+/* LAYOUT */
+* {
+    box-sizing: border-box;
+}
+section {
+    margin: auto;
+    width: 900px;
+}
+
+article {
+    float: left;
+    width: 60%;
+    padding: 20px;
+}
+article div{
+    width: 500px;
+    text-align: justify;
+}
+
+aside {
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 650px) {
+    article {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    aside {
+        margin-top: 0px;
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 550px;
+}
+nav a {
+    margin-right: 15px;
+}
+
+hr {
+    border: 1px dashed lightgrey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    width: 1000px;
+    margin: auto;
+}
+header img {
+    width: 100%;
+}
+@media screen and (max-width: 650px) {
+    header {
+        width: 100%;
+    }
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* autre */
+a:hover {
+    color: hotpink;
+}
+
+li {
+	list-style-image: url('/img/list_icon.png');
+}
+
+h1,h2,h3,h4,h5 {
+	color: #314263;
+}
+
