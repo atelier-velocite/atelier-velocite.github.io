@@ -87,7 +87,7 @@ a:hover {
 }
 
 li {
-	list-style-image: url('/img/list_icon.png');
+	list-style-image: url('img/list_icon.png');
 }
 
 h1,h2,h3,h4,h5 {
