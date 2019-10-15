@@ -44,13 +44,20 @@ aside {
 footer {
     text-align: center;
     font-size: 0.8em;
+    margin-top: 20px;
 }
 
 nav {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    width: 550px;
+    width: 700px;
+}
+
+@media screen and (max-width: 650px) {
+    nav {
+        width : 100%;
+    }
 }
 nav a {
     margin-right: 15px;
